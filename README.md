@@ -14,9 +14,11 @@ Python 2.7 與 Python 3.6資源庫，對初學者來說可以快速入門，不�
 
 開啟chrome先登入google帳號，連結URL [https://colab.research.google.com/](https://colab.research.google.com/)，出現對話窗如<br>
 下，
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/1.jpg?raw=true)
 
 按下右下角 NEW PYTHON 3 NOTEBOOK，出現如下的cell code區域。
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/2.jpg?raw=true)
 
 點擊 code cell進入編輯模式並貼上這段python程式碼：<br>
@@ -30,21 +32,25 @@ plt.hist(x, 100)<br>
 plt.show()<br>
 
 按下左側執行button 或CTRL+Enter。會看到正態分布直方圖結果如下：
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/3.jpg?raw=true)
 
 對了，Colab有code IntelliSense功能，以上述範例來說，在前面兩行import完numpy等函式庫<br>
 後，請先按下執行。接著再寫 x= numpy.random.n…編輯器會自動顯示代碼完成，參數信息，快速<br>
 信息和成員列表等功能，十分方便，如下圖。
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/4.jpg?raw=true)
 
 將滑鼠移至code cell右上角RAM/Disk區域時，可以顯示本次執行虛擬機所分配的資源：約12GB RAM，<br>
 100GB Disk，如下圖。
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/5.jpg?raw=true)
 
 **版本比較Revision History**
 點選工具列File -> Revision History，或直接於主工具列上按下All changes saved，有時會顯示<br>
 Last saved at…(某時間點)。你會看到幾乎任何時間點的更動都被記錄下來，可以做檔案比較、選擇<br>
 再次開啟歷史版本或復原版本。
+
 ![image](https://github.com/11018339/google-colab/blob/main/images/6.jpg?raw=true)
 ![image](https://github.com/11018339/google-colab/blob/main/images/7.jpg?raw=true)
 
