@@ -55,6 +55,7 @@ Last saved at…(某時間點)。你會看到幾乎任何時間點的更動都�
 ![image](https://github.com/11018339/google-colab/blob/main/images/7.jpg?raw=true)
 
 **於notebook (副檔名.ipynb)中任意加入code cell或text cell**
+
 由於Colab是基於Jupyter Notebook發展出來的互動式環境，可以任意加入code cell(使用Python<br>
 和其他語言編寫和執行代碼)或text cell(使用稱為markdown的簡單標記語言進行格式化筆記)。在下<br>
 圖中，「下面的global變數x值是由上面這個cell得來，且不用再import函式庫，即可畫出Scatter Plot。」<br>
