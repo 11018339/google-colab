@@ -161,7 +161,8 @@ print('Downloaded content "{}"'.format(downloaded.GetContentString()))<br>
 
   以上這些檔案操作練習讓我們了解如何使用google drive，之後我們便可將數據資料上傳，以供機器學習使用。<br>
 
-初探機器學習
+**初探機器學習**
+
 如之前所述，使用Colab完全不需自行安裝TensorFlow等函式庫，直接import即可。現在我們到工具<br>
 列File->New Python 3 notebook，產生一個新筆記本ML1.ipynb。接著在工具列Runtime -> <br>
 Change Runtime Type，選擇VM Hardware accelerator。提供的選項有None(由google 配置)、<br>
