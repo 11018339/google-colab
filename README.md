@@ -7,5 +7,5 @@ Colab目的在提供Machine Learning機器學習教育訓練及研究用，不�
 **Colab Notebook環境介紹**
 
 開啟chrome先登入google帳號，連結URL [https://colab.research.google.com/](https://colab.research.google.com/)，出現對話窗如下，
-![image](google-colab/images/1.jpg)
+![image](https://github.com/11018339/google-colab/blob/main/images/1.jpg?raw=true)
 
