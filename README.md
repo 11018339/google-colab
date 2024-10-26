@@ -208,8 +208,8 @@ model.fit(xs, ys, epochs=100)<br>
 
 ![image](https://github.com/11018339/google-colab/blob/main/images/22.jpg?raw=true)
 
-    到此我們先暫停一下，畫張圖：利用線性回歸使用數據點之間的關係，在所有數據點之間畫一條直線。這條線可以用來預測未來值。<br>
-    程式碼如下：
+到此我們先暫停一下，畫張圖：利用線性回歸使用數據點之間的關係，在所有數據點之間畫一條直線。這條線可以用來預測未來值。<br>
+程式碼如下：
 
 import matplotlib.pyplot as plt<br>
 from scipy import stats<br>
