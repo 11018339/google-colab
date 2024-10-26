@@ -9,3 +9,20 @@ Colab目的在提供Machine Learning機器學習教育訓練及研究用，不�
 開啟chrome先登入google帳號，連結URL [https://colab.research.google.com/](https://colab.research.google.com/)，出現對話窗如下，
 ![image](https://github.com/11018339/google-colab/blob/main/images/1.jpg?raw=true)
 
+按下右下角 NEW PYTHON 3 NOTEBOOK，出現如下的cell code區域。
+![image](https://github.com/11018339/google-colab/blob/main/images/2.jpg?raw=true)
+
+點擊 code cell進入編輯模式並貼上這段python程式碼：
+
+import numpy
+import matplotlib.pyplot as plt
+
+x = numpy.random.normal(5.0, 1.0, 100000)
+
+plt.hist(x, 100)
+plt.show()
+
+按下左側執行button 或CTRL+Enter。會看到正態分布直方圖結果如下：
+![image](https://github.com/11018339/google-colab/blob/main/images/3.jpg?raw=true)
+
+對了，Colab有code IntelliSense功能，以上述範例來說，在前面兩行import完numpy等函式庫後，請先按下執行。接著再寫 x= numpy.random.n…編輯器會自動顯示代碼完成，參數信息，快速信息和成員列表等功能，十分方便，如下圖。
