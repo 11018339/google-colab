@@ -93,21 +93,21 @@ with open('/gdrive/My Drive/foo.txt', 'w') as f:
 
 針對google drive的存取，也可以利用python的PyDrive函式庫簡化對Google Drive API的使用，相關範例如下：
 
-/# Import PyDrive and associated libraries.
-/# This only needs to be done once in a notebook.
+\# Import PyDrive and associated libraries.
+\# This only needs to be done once in a notebook.
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 from google.colab import auth
 from oauth2client.client import GoogleCredentials
 
-/# Authenticate and create the PyDrive client.
-/# This only needs to be done once in a notebook.
+\# Authenticate and create the PyDrive client.
+\# This only needs to be done once in a notebook.
 auth.authenticate_user()
 gauth = GoogleAuth()
 gauth.credentials = GoogleCredentials.get_application_default()
 drive = GoogleDrive(gauth)
 
-/# Create & upload a text file.
+\# Create & upload a text file.
 uploaded = drive.CreateFile({'title': 'PyDriveSample.txt'})
 uploaded.SetContentString('Sample upload file content 範例')
 uploaded.Upload()
@@ -116,9 +116,9 @@ print('Uploaded file with ID {}'.format(uploaded.get('id')))
 因為會使用Google Cloud SDK，故執行時也會需要輸入驗證碼，此範例會傳回file ID供後續使用。
 接下來測試列出.txt檔案，因為在同一本notebook，上面的函式庫及參數可以直接應用：
 
-/# List .txt files in the root.
-/# Search query reference:
-/# https://developers.google.com/drive/v2/web/search-parameters
+\# List .txt files in the root.
+\# Search query reference:
+\# https://developers.google.com/drive/v2/web/search-parameters
 listed = drive.ListFile({'q': "title contains '.txt' and 'root' in parents"}).GetList()
 for file in listed:
   print('title {}, date {}, id {}'.format(file['title'], file['createdDate'], file['id']))
