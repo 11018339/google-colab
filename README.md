@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d2de6303-0ebb-4b3d-b430-cf891bceed71)**簡介**(README.md)
+**簡介**(README.md)
 ---------------------------------
 Colaboratory (以下簡稱Colab)是一個在雲端運行的編輯執行環境，由Google提供開發者虛擬機，<br>
 並支援Python程式及機器學習TensorFlow演算法。最棒的是只需要瀏覽器就可以運作，完全免費，<br>
