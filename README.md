@@ -117,8 +117,11 @@ print('Uploaded file with ID {}'.format(uploaded.get('id')))
 接下來測試列出.txt檔案，因為在同一本notebook，上面的函式庫及參數可以直接應用：
 
 \# List .txt files in the root.
+
 \# Search query reference:
+
 \# https://developers.google.com/drive/v2/web/search-parameters
+
 listed = drive.ListFile({'q': "title contains '.txt' and 'root' in parents"}).GetList()
 for file in listed:
   print('title {}, date {}, id {}'.format(file['title'], file['createdDate'], file['id']))
