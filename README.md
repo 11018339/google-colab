@@ -86,6 +86,7 @@ plt.show()<br>
 ![image](https://github.com/11018339/google-colab/blob/main/images/12.jpg?raw=true)
 
 **Mounting Google Drive in your VM**
+
 展開Colab notebook左邊的區域，google提供很多方便的Code snippets範例程式碼，我們挑選存取google雲端硬碟的範例實作。<br>
 
 ![image](https://github.com/11018339/google-colab/blob/main/images/13.jpg?raw=true)
