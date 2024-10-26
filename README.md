@@ -170,15 +170,15 @@ GPU(圖形處理器) 及TPU(張量處理器Tensor Processing Unit)。其中TPU�
 學習框架TensorFlow而設計的人工智慧加速器專用積體電路。參考官方文件得知，目前一個虛擬機<br>
 可提供最長12小時免費使用。在此我們選擇TPU來執行機器學習範例。 <br>
 
-  ![image](https://github.com/11018339/google-colab/blob/main/images/20.jpg?raw=true)
+![image](https://github.com/11018339/google-colab/blob/main/images/20.jpg?raw=true)
 
   我們考慮下面這組數據集，其實可以很快得到這個關係式 Y = 3X + 1。
 
-    ![image](https://github.com/11018339/google-colab/blob/main/images/21.jpg?raw=true)
+![image](https://github.com/11018339/google-colab/blob/main/images/21.jpg?raw=true)
 
-    那麼該如何訓練神經網絡來完成上述關係式？在此應用了一個最簡單的神經網路模型：僅具有單層<br>
-    神經網路，該層具有1個神經元(units=1)，並且其輸入值為單個數據(input_shape=1)，也就是X的值<br>
-    ，藉此模型來預測Y的值。
+那麼該如何訓練神經網絡來完成上述關係式？在此應用了一個最簡單的神經網路模型：僅具有單層<br>
+神經網路，該層具有1個神經元(units=1)，並且其輸入值為單個數據(input_shape=1)，也就是X的值<br>
+，藉此模型來預測Y的值。
 
 編譯模型時須給入兩個非常關鍵的函數，它們會決定數據如何變化：<br>
 損失函數(loss='mean_squared_error')<br>
